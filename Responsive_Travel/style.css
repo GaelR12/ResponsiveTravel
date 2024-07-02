@@ -1,0 +1,107 @@
+/* Base Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    font-weight: 200;
+    text-decoration: solid;
+    color: white;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    width: 145%;
+    text-align: left;
+    align-content: center;
+    padding: 10px;
+    background: rgb(241, 209, 149);
+    color: #fff;
+}
+
+header ul{
+    background-color:  rgb(241, 209, 149);
+    color: rgb(255, 255, 255);
+    list-style: none;
+    padding: 20px;
+    margin: 0rem;
+    display: flex;
+    justify-content: center;
+}
+
+/* p#footer1 {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+} */
+
+/* Mobile First Styles */
+section#intro, section#attractions, section#gallery {
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* Intro Styles */
+
+#intro {
+    background: url("imgs/Fort-Charlotte-Bahamas.webp") no-repeat center
+    center/cover;
+    color: white;
+    width: 105%;
+    text-align: center;
+    padding: 100px 0;
+    margin-block: 5px;
+}
+
+#intro p {
+    margin-block: 10px; 
+    padding-left: 30px;
+    padding-right: 45px;
+}
+
+
+/* Mobile View */
+@media screen and (min-width: 568px) {
+    nav ul {
+        text-align: center;
+    }
+
+    section#intro, section#attractions {
+        width: 45%;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    section#gallery {
+        display: block;
+    }
+}
+
+
+
