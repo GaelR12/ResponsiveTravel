@@ -1,9 +1,27 @@
 /* Desktop View */
 /* 768px */
+/* Author: Gael Rueda 
+Date: 7/1/2024  */
 @media screen and (min-width: 569px) {
     nav ul {
         justify-content: flex-start;
         padding-left: 20px;
+    }
+
+    div#gallery h2 {
+        text-align: center;
+        
+    }
+
+    section#bahamaGalleryImg {
+        margin-left: 12%;
+       
+    }
+
+    section#attractions h2 {
+        text-align: center;
+        margin-right: 8.5%;
+        
     }
 
     section#intro, section#attractions, section#gallery {
@@ -13,7 +31,7 @@
     }
 
     section#gallery {
-        width: 30%;
+        width: 50%;
     }
 
     #intro, #attractions, #gallery {
@@ -31,4 +49,19 @@
     footer {
         padding: 20px;
     }
+
+    section#attractions, section#gallery {
+        width: 100%;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 2.5%;
+        margin-left: 2.5%;
+    }
+
+    section#gallery {
+        margin-left: 60%;
+        margin-bottom: 150%;
+    }
+
+    
 }

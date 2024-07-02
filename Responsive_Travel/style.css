@@ -1,56 +1,71 @@
 /* Base Styles */
+/* Author: Gael Rueda 
+Date: 7/1/2024  */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-color: antiquewhite;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 5%;
+  list-style: none;
+  padding: 0;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+}
+
+section#contact h2 {
+  text-align: center;
+}
+
+section#contact p {
+  text-align: center;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 10px;
+  display: inline;
+  margin-right: 10px;
 }
 
 nav ul li a {
-    font-weight: 200;
-    text-decoration: solid;
-    color: white;
+  font-weight: 200;
+  text-decoration: solid;
+  color: white;
 }
 
 header img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 section {
-    padding: 20px;
+  padding: 20px;
 }
 
 footer {
-    width: 145%;
-    text-align: left;
-    align-content: center;
-    padding: 10px;
-    background: rgb(241, 209, 149);
-    color: #fff;
+  width: 145%;
+  text-align: left;
+  align-content: center;
+  padding: 10px;
+  background: rgb(241, 209, 149);
+  color: #fff;
 }
 
-header ul{
-    background-color:  rgb(241, 209, 149);
-    color: rgb(255, 255, 255);
-    list-style: none;
-    padding: 20px;
-    margin: 0rem;
-    display: flex;
-    justify-content: center;
+header ul {
+  background-color: rgb(241, 209, 149);
+  color: rgb(255, 255, 255);
+  list-style: none;
+  padding: 20px;
+  margin: 0rem;
+  display: flex;
+  justify-content: center;
+}
+
+#img4 {
+    width: 550px;
 }
 
 /* p#footer1 {
@@ -62,46 +77,58 @@ header ul{
 } */
 
 /* Mobile First Styles */
-section#intro, section#attractions, section#gallery {
-    display: block;
-    margin-bottom: 20px;
+section#intro,
+section#attractions,
+section#gallery
+section#contacts {
+  display: block;
+  margin-bottom: 20px;
+}
+
+section#attractions h2 {
+    color: grey;
+}
+
+div#gallery h2 {
+    color: grey;
+}
+
+section#contact h2{
+    color: grey;
 }
 
 /* Intro Styles */
 
 #intro {
-    background: url("imgs/Fort-Charlotte-Bahamas.webp") no-repeat center
+  background: url("imgs/Fort-Charlotte-Bahamas.webp") no-repeat center
     center/cover;
-    color: white;
-    width: 105%;
-    text-align: center;
-    padding: 100px 0;
-    margin-block: 5px;
+  color: white;
+  width: 105%;
+  text-align: center;
+  padding: 100px 0;
+  margin-block: 5px;
 }
 
 #intro p {
-    margin-block: 10px; 
-    padding-left: 30px;
-    padding-right: 45px;
+  margin-block: 10px;
+  padding-left: 30px;
+  padding-right: 45px;
 }
-
 
 /* Mobile View */
 @media screen and (min-width: 568px) {
-    nav ul {
-        text-align: center;
-    }
+  nav ul {
+    text-align: center;
+  }
 
-    section#intro, section#attractions {
-        width: 45%;
-        display: inline-block;
-        vertical-align: top;
-    }
+  section#intro,
+  section#attractions {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+  }
 
-    section#gallery {
-        display: block;
-    }
+  section#gallery {
+    display: block;
+  }
 }
-
-
-
